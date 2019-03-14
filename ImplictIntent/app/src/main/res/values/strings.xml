@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Implict Intent</string>
+    <string name="edittext_url">http://developer.android.com</string>
+    <string name="button_url">Open Website</string>
+    <string name="edittext_loc">Bangla Motor</string>
+    <string name="button_loc">Open Location</string>
+    <string name="edittext_share">Twas brilling and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="take_picture">Take A Picture</string>
+</resources>
