@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="operand_one_hint">operend_one_hint</string>
+    <string name="operand_two_hint">operend_two_hint</string>
+    <string name="add_operation">ADD</string>
+    <string name="sub_operation">SUB</string>
+    <string name="div_operation">DIV</string>
+    <string name="mul_operation">Mul</string>
+    <string name="computationError">Computation Error</string>
+</resources>
