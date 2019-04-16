@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="line_spacing">@dimen/line_spacing</dimen>
+    <dimen name="padding_regular">@dimen/padding_regular</dimen>
+</resources>
