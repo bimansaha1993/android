@@ -21,25 +21,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d(LOG_TAG, "___________");
-        Log.d(LOG_TAG, "onCreate");
+        /*Log.d(LOG_TAG, "___________");
+        Log.d(LOG_TAG, "onCreate");*/
 
         mMessageEditText = findViewById(R.id.editText_main);  //get the message by id from main
         mReplyHeaderTextView = findViewById(R.id.text_header_reply);
         mReplyTextView = findViewById(R.id.text_message_reply);
 
-        if(savedInstanceState!=null) {
+        /*if(savedInstanceState!=null) {
             boolean isVisible=savedInstanceState.getBoolean("reply_visible");
             if(isVisible){
                 mReplyHeaderTextView.setVisibility(View.VISIBLE);
                 mReplyTextView.setText(savedInstanceState.getString("reply_text"));
                 mReplyTextView.setVisibility(View.VISIBLE);
             }
-        }
+        }*/
 
     }
 
-    @Override
+    /*@Override
     protected void onStart() {
         super.onStart();
         Log.d(LOG_TAG, "onStart");
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d(LOG_TAG, "onDestroy");
-    }
+    }*/
 
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button Clicked!"); //log message
